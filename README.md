@@ -94,14 +94,6 @@ Password for all accounts: value of DEMO_PASSWORD in .env (default password).
 | Customer | client@supportpilot.test |
 | Demo | demo@supportpilot.test |
 
----|---|---|
-| Demo | demo@supportpilot.test | password |
-| Super Admin | superadmin@supportpilot.test | password |
-| Admin | admin@supportpilot.test | password |
-| Manager | manager@supportpilot.test | password |
-| Agent | agent@supportpilot.test | password |
-| Customer | customer@supportpilot.test | password |
-
 Admin panel: `/admin` · Marketing: `/` · Portal: `/portal`
 
 ---
