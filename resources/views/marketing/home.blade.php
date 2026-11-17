@@ -10,6 +10,9 @@
         <a class="btn ghost" href="{{ route('modules') }}">Browse modules</a>
     </div>
 </section>
+<section style="padding:0 0 1.5rem;">
+    <img src="{{ asset('docs/screenshots/dashboard.png') }}" alt="SupportPilot AI dashboard with blue #2563EB accent showing ticket triage, escalation routing, and CSAT" style="width:100%;border-radius:.9rem;border:1px solid #bfdbfe;box-shadow:0 20px 40px rgba(37,99,235,.12);">
+</section>
 <section class="grid">
     <div class="card"><span class="badge">Queue</span><h3>{{ $openTickets }} open tickets</h3><p>Live triage queue across verticals.</p></div>
     <div class="card"><span class="badge">Knowledge</span><h3>{{ $articles }} articles</h3><p>Industry knowledge packs ready for deflection.</p></div>
